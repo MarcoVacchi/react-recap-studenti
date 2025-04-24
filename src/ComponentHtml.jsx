@@ -83,14 +83,10 @@ function ComponentHtml() {
     function handleDelete(id) {
         const fill = arrayStudents.filter(element => element.id !== id);
         setArrayStudents(fill);
+        alert("Studente eliminato con successo!");
     };
 
 
-
-
-    // Milestone 5 – Eliminazione
-    // Rimuovi lo studente dallo stato al clic su “Elimina”
-    // Mostra messaggio di conferma
 
     return (
         <main className="container">
